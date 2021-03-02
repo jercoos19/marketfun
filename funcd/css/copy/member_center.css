@@ -1,0 +1,157 @@
+/**********會員管理**********/
+#member-nav{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	background-color: #ffab87;
+	width:1200px;
+	height:40px;
+	margin: 0 auto; 
+	max-height: 40px;
+	max-width: 1402px;
+	transition: 0.5s;
+}
+a.member-menu {
+   display: inline-block;
+   background-color: #fc8a58;
+   font-size: 16px;
+   font-family: Arial,Helvetica,sans-serif;
+   color: #fff;
+   text-shadow: 1px 1px 0px #1b91ab;
+   font-weight: bold;
+   text-decoration: none;
+   border-bottom: 0;
+   height:41px;
+   width:49%;
+   max-height: 41px;
+   max-width:600px;
+}
+a.member-menu.member-menu-active {
+	background-color: #fff;
+	text-shadow: 1px 1px 0px #ffffff;
+	color: #6b6b6b;
+	border-bottom: 0;
+}
+.member-container {
+	margin: 0 auto; 
+	background-color: #fff;
+	overflow: auto;
+	height:800px;
+	width:1200px;
+	margin: 0 auto;
+}
+.member-panel {
+	display: none;
+	min-height: 150px;
+	padding: 10px;
+	max-height: 1000px;
+	margin: 0 auto; 
+}
+.addbutton{
+	text-decoration:none;
+	color:black;
+	height:40px;
+	width:600px;
+	font-weight:bold;
+	font-family:PMingLiU;
+	font-size:24px;
+	color:#fff;
+	margin-top:20px;
+}
+/********活動管理*********/
+
+/**********場地管理**********/
+.foutflowbtn{
+	position:absolute;
+	left:60px;
+	top:130px;
+}
+.flowupbtn{
+	height:30px;
+	width:80px;
+	background-color: #006599;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 24px;
+	text-decoration:none;
+}
+.flowdelbtn{
+	height:30px;
+	width:80px;
+	background-color: #006599;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 24px;
+	margin-left:120px;
+	text-decoration:none;
+}
+.dialog-init {
+	display: none;
+}
+.hideevdelbtn{
+	visibility:hidden;
+}
+/********************test*******************/
+.membermenu
+{
+	width:1200px;
+	margin:60px auto;
+}
+#membermenu-1 .tab-pane
+{
+	padding:15px;
+	height:80px;
+}
+#membermenu-1 .nav-tabs
+{
+	position:relative;
+	border:none!important;
+	background-color:#fff;
+/*   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2); */
+	border-radius:6px;
+}
+#membermenu-1 .nav-tabs li
+{
+	margin:0px!important;	
+}
+#membermenu-1 .nav-tabs li a
+{
+	position:relative;
+	margin-right:0px!important;
+	padding: 20px 40px!important;
+	font-size:16px;
+	border:none!important;
+	color:#333;
+}
+#membermenu-1 .nav-tabs a:hover
+{
+	background-color:#fff!important;
+	border:none;
+}
+#membermenu-1 .tabslider
+{
+	display:inline-block;
+	width:30px;
+	height:4px;
+	border-radius:3px;
+	background-color:#39bcd3;
+	position:absolute;
+	z-index:1200;
+	bottom:0;
+	transition:all .4s linear;
+}
+#membermenu-1 .nav-tabs .active
+{
+	background-color:transparent!important;
+	border:none!important;
+	color:#39bcd3!important;
+}
+.tab-content{
+	width:1200px;
+}

@@ -1,0 +1,132 @@
+#imageset{
+	width:380px;
+	height:480px;
+	border:0px;	
+	padding:1px;
+	text-align: center;
+}
+#evcontent{
+	width:auto; 
+	height:auto;
+	min-height: 100%;
+	padding-bottom: 175px;
+}
+#evcontent h2{
+	color:rgb(20, 156, 77);
+	font-size:40px;
+	font-weight: bold;
+}
+#evcontent ul{
+	list-style-type: none;
+}
+#evdata{
+	height:auto;
+	z-index: 1;
+	position: absolute;
+	top: 200px;
+	right: 50px;
+	width:400px;
+	text-align:left;
+	background-color: #f0f0f0;
+	padding:10px;
+}
+#evdata table tbody tr:nth-child(2n + 1) {
+	background-color: rgba(144, 144, 144, 0.075);
+}
+#dvdata table{
+	margin-top:10px;
+}
+#dvdata table th {
+	color: #727a82;
+	font-size: 0.9em;
+	font-weight: 700;
+	text-align: left;
+	word-wrap:break-word; 
+	overflow:hidden;
+}
+table{
+	font-size:18px;
+}
+#evdata h3{
+	color:#000;
+}
+#evdata h5{
+	color:#000;
+	font-size:18px;
+	text-align:left;
+	padding-top:15px;
+	white-space:pre-wrap; 
+	font-weight:bold;
+}
+#evcontent #evinfo{
+	position :relative;
+	height:auto;
+	width:800px;
+	margin: 0 auto;
+}
+.enamefont{
+	color:#000;
+	text-align:center;
+	font-weight:bold;
+	padding: 0 0 10px 0;
+}
+hr{
+	width: 60%;
+	margin:0 auto;
+	padding: 0 0 20px 0;
+}
+#stallbtn{
+	position:relative;
+	width:120px;
+	height:45px;
+	line-height:45px;
+	font-size:18px;
+	color:#fff;
+}
+#googlemap{
+	padding-top:100px;
+}
+.evsubtitle{
+	text-align:left;
+}
+.evall{
+	width:450px;
+	height:auto;
+	word-wrap:break-word; 
+	margin-bottom:-100px;
+}
+.evsubcontent{
+	position:relative;
+	left:100px;
+	bottom:175px;
+}
+#stallapldata{
+	padding-top:100px;
+	width:850px;
+	margin:0 auto;
+}
+#stallapldata img{
+	width:auto;
+	height:250px;
+	display:inline-block;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+#stallapldata h5{
+	color:rgb(97, 97, 97);
+	font-size: 18px;
+}
+#stallapldata h3{
+	color:rgb(212, 124, 51);
+	font-size:30px;
+}
+#stalldate{
+	padding-bottom: 20px;
+}
+#stalllack{
+	padding-bottom: 20px;
+}
+h5{
+	color:#000;
+	font-size:18px;
+}

@@ -1,0 +1,69 @@
+#imageset{	
+	height:500px;
+	border:0px;	
+	margin-bottom:30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+#fielddata{
+	height:auto;
+	width:930px;
+	z-index: 1;
+	text-align:left;
+	background-color: #fff;
+	padding-top:40px;
+	margin:0 auto;
+}
+#fielddata table{
+	font-size:18px;
+	color: #000;
+	text-align: left;
+}
+#fieldinfo{
+	width:950px;
+	max-width:930px;
+	height:auto;
+	margin:0 auto;
+	padding-top:50px;
+}
+hr{
+	width:80%;
+	margin:0 auto;
+}
+#fielddata table tbody tr:nth-child(2n + 1) {
+	background-color: #f0f0f0;
+}
+.fnamefont{
+	position:relative;
+	text-align: center;
+	font-weight:bold;
+	font-size:48px;
+	color:green;
+	font-family:PMingLiU;
+	top:-100px;
+}
+.finfofont{
+	font-size:18px;
+	font-weight:bold;
+	color: #000;
+	text-align: center;
+}
+.ftelfont{
+	font-size:18px;
+	font-weight:bold;
+	color: #000;
+	text-align: center;
+}
+.fadrfont{
+	font-size:18px;
+	font-weight:bold;
+	color: #000;
+	text-align: center;
+}
+
+
+#googlemap{
+    text-align: center;
+}

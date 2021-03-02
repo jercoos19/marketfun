@@ -1,0 +1,198 @@
+#imsort{
+	position :relative;
+	max-width:320px;
+	max-height:300px;
+	width:320px;
+	height:300px;
+	line-height:25px;
+	margin-right:33px;
+	margin-left:33px;
+	background:#f0f0f0;
+	float:left;
+	word-break: break-all;
+	word-wrap: break-word; 
+	/*滑鼠移入移出效果*/
+	transition: background 1s;
+	-webkit-transition: background 1s;
+}
+#imsort:hover {
+	background: lightblue;
+}
+#outsort{
+	position :relative;
+	max-width:1170px;
+	width:1170px;
+	padding:0px 6px 50px 6px;
+	border:0px blue solid;
+	top : 50px;
+	display:inline-block;
+	margin:0 auto;
+	text-align:center;
+}
+#outblock{
+	padding-bottom:110px;
+}
+#ime{
+	margin-top:10px;
+	width:90%;
+	overflow:hidden; 
+	height:180px;
+}
+#loadmore{
+	border:0;
+	border-radius:100px;
+	font-weight:bold;
+	font-family:PMingLiU;
+	outline:none;
+	background-color:#006599;
+	font-size:16px;
+	position:relative;
+	margin-top:10px;
+	height:60px;
+	width:250px;
+	top:0px;
+	color:#ffffff;
+}
+#loadmore:hover{
+	color:#003C9D;
+	background-color:#fff;
+	border:2px #006599 solid;
+}
+#fname{
+	color:black;
+	font-weight:bold;
+	font-family:PMingLiU;
+	font-size:18px;
+	padding:2px;
+	overflow:hidden;
+}
+#fdate{
+	color:#969696;
+	padding:0px;
+	font-size:14px;
+	font-weight:bold;
+	overflow:hidden;
+}
+#fadr{
+	color:#969696;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px;
+	overflow:hidden;
+}
+#far #edate #ename
+{
+	-webkit-font-smoothing: antialiased;
+}
+#txt_blocksearch{
+	position :relative;
+	width:300px;
+	height:40px;
+	left:38px;
+	top:-40px;
+	left:151px;
+}
+#datasort{
+	position :relative;
+	font-size:18px;
+	height: 40px;
+	width: 150px;
+    line-height: 40px;
+}
+#areac{
+	position :relative;
+	float:right;
+	top:-80px;
+}
+.areaclass{
+	width:100px;
+	height:40px;
+	line-height: 40px;
+	text-align:center;
+	font-size:16px;
+}
+.regionhun{
+	position :absolute;
+	width:100px;
+	height:40px;
+	line-height: 40px;
+	top:160px;
+	right:930px;
+	display:none;
+}
+.e_toolbar{
+	width:100%;
+	margin:0 auto;
+}
+#noresult{
+	position :relative;
+	max-width:1170px;
+	max-height:420px;
+	width:1170px;
+	height:280px;
+	padding:100px 0px 50px 0px;
+	border:0px blue solid;
+	top : 50px;
+	display:inline-block;
+	margin:0 auto;
+	text-align:center;
+}
+.field_index input[type="checkbox"],
+.field_index input[type="radio"] {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	display: block;
+	float: left;
+	margin-right: -2em;
+	opacity: 0;
+	width: 1em;
+	z-index: -1;
+}
+/****會員中心按鈕****/
+.fbtcontainer{
+	display:none;
+}
+#imsort:hover .fbtcontainer{
+	display:block;
+	position:absolute;
+	top:120px;
+	padding:0px 45px 0 45px;
+}
+.fupbtn{
+	float:left;
+	height:40px;
+	width:70px;
+	line-height: 40px;
+	margin-left: 30px;
+	background: rgb(49, 128, 73);
+}
+.fupbtn:hover{
+	background-color: rgb(61, 156, 90);
+}
+.fdelbtn{
+	float:right;
+	height:40px;
+	width:70px;
+	line-height: 40px;
+	margin-left: 30px;
+	background: rgb(49, 128, 73);
+}
+.fdelbtn:hover{
+	background-color: rgb(61, 156, 90);
+}
+#gotop {
+	position: fixed;
+	border-radius: 100px;
+	right: 20px;
+	bottom: 30px;
+	height:65px;
+	width:65px;
+	padding:15px 0 0 12px;
+	font-size: 25px;
+	background: #356933;
+	color: #FAFCFD;
+	cursor: pointer;
+	z-index: 1000;
+}

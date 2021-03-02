@@ -1,0 +1,265 @@
+/* The Modal (background) */
+.delemodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 285px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.evaddmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 65px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.logmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 265px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.resmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 65px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.memupmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 155px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.pswupmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 155px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.forgetpassmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 265px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+/*登入&註冊對話框*/
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    width: 35em;
+    overflow: auto;
+}
+/*登入對話框物件設定*/
+.modal-content ul{
+    margin:0 auto;
+    text-align: center;
+}
+.modal-content li{
+    list-style-type: none; 
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.modal-content input[type="text"] {
+    width:20em;
+    height:50px;
+    background-color: rgb(255, 255, 255);
+}
+.modal-content input[type="password"] {
+    width:20em;
+    height:50px;
+    background-color: rgb(255, 255, 255);
+}
+.modal-content input[type="email"] {
+    width:20em;
+    height:50px;
+    background-color: rgb(255, 255, 255);
+}
+.modal-content input[type="submit"] {
+    width:10em;
+    height:45px;
+    line-height: 45px;
+    font-size:10px;
+}
+.modal-content input[type="tel"] {
+    width:20em;
+    height:50px;
+    background-color: rgb(255, 255, 255);
+}
+.modal-content select{
+    background-color: #fff;
+    width:8em;
+    height:50px;
+    line-height:45px;
+    font-size:16px;
+    color:rgb(82, 82, 82);
+}
+.modal-content h5{
+    padding: 0 20px 0 0;
+    float:left;
+    line-height:50px;
+}
+/*確認對話框*/
+.delemodal .checkmodal-content {
+    background-color: #fefefe;
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    vertical-align:baseline;
+}
+.dialog-header{
+    border-top-left-radius: 0.3em;
+    border-top-right-radius: 0.3em;
+    height:30px;
+    line-height: 30px;
+    width:100%;
+    background-color:#356933;
+}
+.checkmodal-content .dialog-content{
+    line-height:100px;
+    text-align: center;
+}
+.checkbtn{
+    padding:50px 60px 0 60px;
+}
+.checkmodal-content h5{
+    color:#000;
+}
+.checkword{
+    padding:40px 0 0 0;
+}
+.definedelbtn{
+    float:left;
+    width:100px;
+    height:50px;
+    line-height:50px;
+    background: #68bb65;
+}
+.definedelbtn:hover{
+    background: #7bdd78;
+}
+.canceldelbtn{
+    float:right;
+    width:100px;
+    height:50px;
+    line-height:50px;
+    background: #68bb65;
+}
+.canceldelbtn:hover{
+    background: #7bdd78;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding:0 10px 0 0;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*buttonset*/
+#loginbtn{
+    width:80px;
+    height:45px;
+    line-height: 45px;
+    float:right;
+    margin-top:0px;
+    font-size:18px;
+}
+#ressubbtn{
+    width:100px;
+    height:45px;
+    line-height: 45px;
+    font-size:18px;
+}
+#pswupsubbtn{
+    width:100px;
+    height:45px;
+    line-height:45px;
+    font-size:18px;
+}
+#memupbtn{
+    width:100px;
+    height:45px;
+    line-height:45px;
+    font-size:18px;
+}
+#diaforgetbtn{
+    width:100px;
+    height:45px;
+    line-height:45px;
+    font-size:18px;
+}
+#forgetbtn{
+    width:90px;
+    height:30px;
+    line-height: 30px;
+    background-color:rgb(255, 255, 255);
+    color:rgb(88, 88, 88);
+    position:relative;
+    right:100px;
+    bottom:57px;
+    outline:none;
+    font-size:18px;
+}
+#forgetbtn:hover{
+    color:rgb(26, 26, 26);
+}
+/*otherset*/

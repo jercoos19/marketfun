@@ -1,0 +1,166 @@
+#fimsort{
+	position :relative;
+	max-width:320px;
+	max-height:300px;
+	width:320px;
+	height:300px;
+	line-height:25px;
+	margin-right:33px;
+	margin-left:33px;
+	background:#f0f0f0;
+	display:inline-block;
+	word-break: break-all;
+	word-wrap: break-word; 
+	/*滑鼠移入移出效果*/
+	transition: background 1s;
+	-webkit-transition: background 1s;
+}
+#fimsort:hover {
+	background: lightblue;
+}
+#foutsort{
+	position :relative;
+	max-width:1200px;
+	width:1200px;
+	padding:20px 0px 20px 0px;
+	border:0px blue solid;
+	top : 50px;
+	display:inline-block;
+	margin:0 auto;
+	text-align:center;
+}
+#eimsort{
+	position :relative;
+	max-width:240px;
+	max-height:380px;
+	width:240px;
+	height:380px;
+	line-height:25px;
+	margin-left:25px;
+	margin-right:25px;
+	background:#f0f0f0;
+	border-radius:5px;
+	display:inline-block;
+	word-break: break-all;
+	word-wrap: break-word; 
+	overflow:hidden;
+	/*滑鼠移入移出效果*/
+	transition: background 1s;
+	-webkit-transition: background 1s;
+}
+#eimsort:hover {
+	background: lightblue;
+}
+#outsort{
+	position :relative;
+	max-width:1200px;
+	width:1200px;
+	padding:20px 0px 20px 0px;
+	border:0px blue solid;
+	top : 50px;
+	display:inline-block;
+	margin:0 auto;
+	text-align:center;
+}
+#eime{
+	width:90%;
+	overflow:hidden; 
+	margin-top:5%;
+	height:240px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#ime{
+	margin-top:10px;
+	width:90%;
+	overflow:hidden; 
+	height:180px;
+}
+#loadmore{
+	border:0;
+	border-radius:100px;
+	font-weight:bold;
+	font-family:PMingLiU;
+	outline:none;
+	background-color:#006599;
+	font-size:16px;
+	position:relative;
+	margin-top:50px;
+	height:30px;
+	width:250px;
+	top:60px;
+	left:441px;
+	color:#ffffff;
+}
+#loadmore:hover{
+	color:#003C9D;
+	background-color:#fff;
+	border:2px #006599 solid;
+}
+#ename{
+	color:black;
+	font-weight:bold;
+	font-family:PMingLiU;
+	font-size:18px;
+	padding:8px 0 0 0;
+	text-overflow: ellipsis;
+}
+#edate{
+	color:#969696;
+	font-size:14px;
+	padding:4px;
+	font-weight:bold;
+	text-overflow: ellipsis;
+	
+}
+#eadr{
+	color:#969696;
+	font-size:14px;
+	font-weight:bold;
+	padding:4px;
+	text-overflow: ellipsis;
+}
+#fname{
+	color:black;
+	font-weight:bold;
+	font-family:PMingLiU;
+	font-size:18px;
+	padding:2px;
+	overflow:hidden;
+}
+#fdate{
+	color:#969696;
+	padding:0px;
+	font-size:14px;
+	font-weight:bold;
+	overflow:hidden;
+}
+#fadr{
+	color:#969696;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px;
+	overflow:hidden;
+}
+#eadr, #edate, #ename, #fname, #fdate, #fadr
+{
+	-webkit-font-smoothing: antialiased;
+}
+#txt_blocksearch{
+	position :relative;
+	left: 50px;
+	width:300px;
+	height:40px;
+}
+#datasort{
+	position :relative;
+	float:left;
+	left: 50px;
+	height: 40px;
+	width: 100px;
+}
+.homeshowhr{
+	margin:0 auto;
+	width:1150px;
+	padding:100px 0 0 0;
+}
